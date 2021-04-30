@@ -20,7 +20,7 @@
 } */
 
 .academia{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin-top: 50px;
     height: 100%;
 }
@@ -28,7 +28,7 @@
     text-align: center;
 }
 .imagenes-academia{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -44,7 +44,7 @@ h3{
     text-align: center;
 }
 h3:hover{
-    color: tomato;
+    color: #f26522;;
 }
 .texto-foto{
     text-align: center;
@@ -140,8 +140,9 @@ h3:hover{
         display: flex;
         align-items: center;
     }
-    .icono-texto:hover{
-        color: tomato;
+    .icono-texto:hover
+    {
+        color: #f26522;;
     }
 
     .texto-3{
@@ -175,8 +176,9 @@ h3:hover{
         margin-top: 50px;
         margin-bottom: 0px;
     }
-    .perfil:hover{
-        background-color: tomato;
+    .perfil:hover
+    {
+        background-color: #f26522;;
         color: white;
     }
     .profe{
@@ -212,15 +214,18 @@ h3:hover{
     }
     @media(max-width:768px){
         .seccion-profesores{
-            border: 2px solid red;
+            /* border: 2px solid red; */
             display: flex;
             flex-direction: column;
+            margin-top: 20px;
         }
         .perfil{
             /* border: 1px solid blue; */
-            width: 100%;
+            width: 90%;
+            margin: auto;
             padding: 0px;
             height: 100%;
+            margin-bottom: 10px;
         }
         .profe{
             border-radius: 50%;
@@ -238,6 +243,7 @@ h3:hover{
                 padding-right: 5px;
                 text-align: justify;
             }
+           
     }
 
     /*Sección4*/
@@ -247,7 +253,8 @@ h3:hover{
         justify-content: space-between;
         flex-wrap: wrap;
         background-color: #f26522;
-        margin-bottom: 50px;
+     
+        /* margin-bottom: 50px; */
        
     }
     .precios{
@@ -292,6 +299,10 @@ h3:hover{
     .btn.btn-outline-primary{
     color: white;
     }
+    #cambio{
+        background: rgba(0,0,0,0.12);
+        padding-bottom: 20px;
+    }
 
     @media(max-width:768px){
         .precios-academia{
@@ -314,4 +325,31 @@ h3:hover{
 }
 .col-md-12.text-center{
     margin-top: 20px;
+}
+
+.text-center.header{
+    color: tomato;
+}
+.contact{
+    background-color: #efefef;
+    padding-top: 50px;
+    
+}
+#mensaje{
+    height: 200px;
+}
+
+/* Footer */
+
+.text-center.text-lg-start{
+    background-color: #f26522;;
+    color: white;
+}
+.col-lg-3.col-md-6.mb-4.mb-md-0{
+    background-color: #f26522;;
+    color: white;
+
+}
+.enlaces{
+    color: white;
 }
