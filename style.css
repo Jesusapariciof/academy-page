@@ -247,6 +247,7 @@ h3:hover{
         justify-content: space-between;
         flex-wrap: wrap;
         background-color: #f26522;
+        margin-bottom: 50px;
        
     }
     .precios{
@@ -306,3 +307,11 @@ h3:hover{
             padding-bottom: 20px;
         }
     }
+
+    /* Sección contacto*/
+.col-md-12{
+    margin-bottom: 30px;
+}
+.col-md-12.text-center{
+    margin-top: 20px;
+}
