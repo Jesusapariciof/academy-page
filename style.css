@@ -166,6 +166,7 @@ h3:hover{
         background-color: rgb(255, 255, 255);
         padding: 40px;
         margin-top: 80px;
+        margin-bottom: 50px;
        
     }
     .titulo-profesores{
@@ -237,4 +238,71 @@ h3:hover{
                 padding-right: 5px;
                 text-align: justify;
             }
+    }
+
+    /*Sección4*/
+    .precios-academia{
+        border: 1px solid green;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: #f26522;
+       
+    }
+    .precios{
+        /* border: 3px solid red; */
+        width: 33%;
+        height: 100%;
+       
+        
+    }
+    .img-teorico{
+        /* border: 1px solid blue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        color: white;
+    }
+    .logotipo{
+        width: 79px;
+        height: 100px;
+        margin-top: 20px;
+    }
+    .horas{
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 20px;
+        color: white;
+    }
+    .teorico{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+    .precio{
+        font-size: 150px;
+    }
+    .boton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn.btn-outline-primary{
+    color: white;
+    }
+
+    @media(max-width:768px){
+        .precios-academia{
+            display: flex;
+            flex-direction: column;
+        }
+        .precios{
+            width: 98%;
+            margin-bottom: 20px;
+        }
+        #cambio{
+            background-color: tomato;
+            padding-bottom: 20px;
+        }
     }
