@@ -1,16 +1,20 @@
 
 
 
-.texto-carousel{
+/* .texto-carousel{
     color:red;
     position: absolute;
      margin-top: -300px; 
     text-align: center;
 }
-
+@media(max-width:768px){
+    .texto-1{
+        visibility: hidden;
+    }
+}
 
 
 .texto-1{
     font-size: 60px;
     font-weight: bolder;
-}
+} */
